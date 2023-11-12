@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.head{
+    background-image: url(img/developer.png);
+    width: 1440px;
+    height: 769px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+    
+}
+.head-content {
+    margin-top: 50px;
+}
+
+.larg-text{
+    font-size: 72px;
+}
+
+.head-content p {
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+/** Middle Section **/
+
+.middle{
+    width: 1440px;
+    height: 280px;
+    background-color: #161619;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 400px;
+}
+
+.middle span {
+    font-size: 85px;    
+}
+
+/** informatoin **/
+
+.information {
+    padding: 53px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 320px;
+    height: 450px;
+    border-radius: 10px;
+    text-wrap: wrap;
+    box-shadow: 4px 2px  rgba(0, 0, 0, 0.2);
+}
+
+/** Last Information **/
+
+
+.last-info{
+    width: 1440px;
+    height: 378px;
+    display: flex;
+    justify-content: center;
+}
+.contactme {
+    width: 72opx;
+    height: 378px;
+    background-color: #515603;
+    color: white;
+}
+.Aboutme{
+    width: 72opx;
+    height: 378px;
+    background-color: #722300;
+    color: white;
+}
